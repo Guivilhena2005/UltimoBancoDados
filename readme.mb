@@ -1,0 +1,53 @@
+Durante as atividades práticas, foram desenvolvidos conhecimentos sobre consultas e manipulação de dados utilizando MySQL.
+
+### 1. Consultas básicas
+- `SELECT`: selecionar informações de uma tabela.
+- `FROM`: definir a tabela consultada.
+- Seleção de todas as colunas ou de colunas específicas.
+- `AS`: criação de apelidos (aliases) para colunas.
+
+### 2. Filtragem de dados
+- `WHERE`: filtrar registros conforme condições.
+- Operadores de comparação, como `=` e `>=`.
+- `BETWEEN`: buscar valores dentro de um intervalo.
+- `LIKE`: pesquisar padrões em textos.
+- `IS NULL`: identificar campos sem valores cadastrados.
+- `AND`: combinar condições de pesquisa.
+
+### 3. Organização dos resultados
+- `ORDER BY`: ordenar resultados.
+- `ASC`: ordem crescente.
+- `DESC`: ordem decrescente.
+- `LIMIT`: limitar a quantidade de registros retornados.
+- `DISTINCT`: eliminar resultados repetidos.
+
+### 4. Funções de agregação e agrupamento
+- `COUNT()`: contar registros.
+- `SUM()`: calcular a soma de valores.
+- `GROUP BY`: agrupar registros por uma coluna.
+- `HAVING`: filtrar resultados agrupados.
+- `COALESCE()`: substituir valores `NULL` por uma alternativa.
+
+### 5. Relacionamento entre tabelas (JOIN)
+- `INNER JOIN`: combinar registros que possuem correspondência entre tabelas.
+- `LEFT JOIN`: manter todos os registros da tabela à esquerda.
+- `RIGHT JOIN`: manter todos os registros da tabela à direita.
+- `FULL JOIN`: simular a junção completa utilizando `LEFT JOIN`, `RIGHT JOIN` e `UNION`.
+- `ON`: definir as condições de relacionamento entre tabelas.
+- `UNION`: unir resultados de duas consultas, removendo duplicações.
+
+### 6. Consultas com múltiplas tabelas
+- Relacionamento entre quatro tabelas utilizando `INNER JOIN`.
+- Combinação de diferentes tipos de JOIN.
+- Agrupamento de dados após relacionar tabelas.
+- Criação de relatórios com contagem de registros e soma de valores.
+
+### 7. Prática desenvolvida
+Foi utilizado um banco de dados chamado `escola_cursos`, composto por quatro tabelas:
+
+- `professores`
+- `cursos`
+- `alunos`
+- `pagamentos`
+
+Foram realizadas 20 atividades práticas, envolvendo consultas simples, filtros, ordenações, agrupamentos, funções de agregação e relacionamentos entre tabelas.
